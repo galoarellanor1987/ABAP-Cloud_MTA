@@ -1,0 +1,22 @@
+CLASS zcl_01_hello_cloud DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+
+   INTERFACES IF_OO_ADT_CLASSRUN.
+
+
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+
+
+
+CLASS zcl_01_hello_cloud IMPLEMENTATION.
+  METHOD if_oo_adt_classrun~main.
+    OUT->WRITE( 'Hello Cloud!' ).
+  ENDMETHOD.
+
+ENDCLASS.
