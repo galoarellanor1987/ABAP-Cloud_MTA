@@ -16,7 +16,7 @@ ENDCLASS.
 
 CLASS zcl_01_hello_cloud IMPLEMENTATION.
   METHOD if_oo_adt_classrun~main.
-    OUT->WRITE( 'Hello Cloud!' ).
+    OUT->WRITE( 'Hello Cloud Git 2!' ).
   ENDMETHOD.
 
 ENDCLASS.
